@@ -3,12 +3,13 @@ body{
   margin:0; 
   line-height: 150%;
   padding: 30px;
-  font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;
+  /* font-family: 'Montserrat', sans-serif;
+  font-weight: 'regular'; */
+  font-family: 'General Sans', sans-serif;
 }
-button{
-  font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;
+button, input{
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'General Sans', sans-serif;
 }
 h1, h3{
   margin:0; 
@@ -21,6 +22,8 @@ a{
 }
 .heading{
   text-align: center;
+  font-family: 'Clash Display', sans-serif;
+  padding:10px; 
 }
 .button{
     background-color:aliceblue;
@@ -73,6 +76,12 @@ a{
 .main-heading, .main-description{
   margin: 10px;
   padding:10px;
+  font-family: 'Clash Display', sans-serif;
+  font-weight: 'light';
+}
+.main-heading{
+  font-family: 'Clash Display', sans-serif;
+
 }
 .main-content{
   width:1000px;
@@ -248,8 +257,9 @@ a{
 
 .modal-content{
   background-color: #D8D9DA;
-  height:600px; 
-  width:800px; 
+  min-height:500px; 
+  max-height: 600px;
+  width:1000px; 
   position: absolute;
   top:50%;
   left:50%; 
@@ -278,14 +288,11 @@ a{
 }
 .modal-img{
   padding-left:10px; 
-  height: 300px; 
-  width:400px; 
+  height: 400px; 
+  max-width:600px; 
 }
 .modal-description{
   padding-right:10px;
-}
-.modal-footer{
-  padding:30px; 
 }
 .code-btn{
   background-color:aliceblue;
@@ -309,7 +316,8 @@ a{
   padding: 10px;
   color:white;
   font-size: 16px;
-  margin:5px;
+  margin-right:10px; 
+  margin-left:0;
 }
 
 

@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="about-main">
     <div className="about-content">
-      <h1 className="about-heading">About</h1>
+      <h1 className="about-heading heading">About</h1>
       <img src="./images/saini.jpg" className="about-profile-img"></img>
       <p className="about-description">
         An aspiring Full Stack Developer based in British Columbia with a diploma from Georgian College. I am currently looking for all positions web and software development. My core tech stack includes Java, HTML, CSS, Vanilla JS, Node JS, Express, React and databases like MongoDB and SQL. I love writing code and building things that make me expand my knowledge and skills.
@@ -26,7 +26,8 @@ function About() {
       <Skill skill='Javascript' src='./images/javascript.png'/>
       <Skill skill='NodeJS' src='./images/nodeJS.png'/>
       <Skill skill='MongoDB' src='./images/mongo.png'/>
-      <Skill skill='Express' src='./images/mongo.png'/>
+      <Skill skill='Express' src='./images/express.png'/>
+      <Skill skill='EJS' src='./images/ejs.png'/>
       <Skill skill='React' src='./images/react.png'/>
       <Skill skill='SQL' src='./images/sql.png'/>
       <Skill skill='Swift' src='./images/swift.png'/>

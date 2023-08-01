@@ -47,7 +47,7 @@ function Contact(){
         })
     }
     return <div className='contact-main'>
-    <h1 className='contact-heading'>Contact</h1>
+    <h1 className='contact-heading heading'>Contact</h1>
     <div className='contact-form'>
     <p className='contact-para'>Send me an email!</p>
     <input type='text' name='fullName' placeholder='Your Name' className='form-input' value={formData.fullName} onChange={changeForm}></input>
