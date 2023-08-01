@@ -1,0 +1,315 @@
+body{
+  background-color: #526D82;
+  margin:0; 
+  line-height: 150%;
+  padding: 30px;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+button{
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+h1, h3{
+  margin:0; 
+}
+p{
+  font-size: 20px;
+}
+a{
+  color:black
+}
+.heading{
+  text-align: center;
+}
+.button{
+    background-color:aliceblue;
+    border: none;
+    padding: 10px; 
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  .button:hover{
+    background-color: #526D82;
+  }
+
+/* Header shit */
+.header-main{
+  background-color: darkgray;
+  width:100%; 
+  padding:15px 20px;
+  box-sizing: border-box;
+}
+.header-btn{
+  background-color:aliceblue;
+  border: none;
+  padding: 10px; 
+  font-size: 16px;
+  margin: 0 5px;
+}
+.header-btn:hover{
+  background-color: #526D82;
+}
+.contact-btn{ 
+}
+.header-icon{
+  margin-left:0; 
+}
+.nav-btn{
+  float: right;
+  overflow: auto;
+}
+/* Header shit */
+
+/* main shit*/
+.main-div{
+
+}
+.main-container{
+  width:100%; 
+  background-color: antiquewhite;
+  min-height:80vh;  
+}
+.main-heading, .main-description{
+  margin: 10px;
+  padding:10px;
+}
+.main-content{
+  width:1000px;
+  text-align: center;
+  margin: auto;
+  padding-top:80px; 
+  font-size: 1.1rem;
+}
+
+.splash-img{
+  display: block;
+  margin: 0 auto;
+  height:450px; 
+  width:800px; 
+}
+.main-btn{
+  background-color:aliceblue;
+  border: none;
+  padding: 10px; 
+  font-size: 16px;
+  margin: 0 5px;
+}
+.main-btn:hover{
+  background-color: #526D82;
+}
+
+/* About shit*/
+.about-container{
+  background-color: #F5EFE7;
+}
+.about-content{
+  text-align: center;
+}
+.about-heading{
+  text-align: center;
+  padding:20px 0; 
+}
+.about-profile-img{
+  width:100px; 
+  height:100px; 
+  border-radius: 50%;
+  display: block;
+  margin:0 auto; 
+}
+.about-description{
+  padding:0 200px; 
+}
+.skill-container{
+  text-align: center;
+  padding:10px 100px; 
+}
+.skill{
+  display: inline-block;
+  padding:10px; 
+}
+.education-container{
+  padding:20px 0;
+  text-align: center;
+}
+.program-div{
+
+}
+.program-text{
+   margin: 0;
+   padding:5px;
+}
+.current-container{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.current{
+  padding-bottom:10px; 
+}
+.skill-img{
+  height:80px;
+  width:80px; 
+}
+/*Project shit */
+.project-container{
+  background-color: #D8D9DA;
+  padding:20px 0; 
+}
+.project-heading{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.project-content{
+  display: flex;
+  padding:40px; 
+  
+}
+.project-description{
+  box-sizing: border-box;
+  padding-left:10px; 
+   
+}
+.project-img{
+  height:300px; 
+  width:500px; 
+  padding-left:10px; 
+}
+.project-btn{
+  margin-left:0;
+}
+/*Contact shit */
+.contact-container{
+  background-color: #EEEDED;
+}
+.contact-img{
+  height:100px; 
+  width:100px;
+}
+.contact-heading{
+  text-align: center;
+  padding:20px 0; 
+}
+
+.contact-form{ 
+  text-align: center;
+  margin-left:40px; 
+  margin-right:40px;  
+  padding:20px; 
+}
+.contact-para{
+  margin:0; 
+  padding-bottom: 10px;
+}
+.form-input{
+  margin:10px; 
+  padding:10px; 
+  width:300px; 
+
+}
+.form-message{
+  box-sizing: border-box;
+  display: inline-block;
+  width:80%; 
+  padding:10px; 
+  margin:10px; 
+}
+.form-btn{
+  background-color:aliceblue;
+  border: none;
+  padding: 10px; 
+  font-size: 16px;
+  display: block;
+  margin:10px auto; 
+}
+
+.form-btn:hover{
+  background-color: #526D82;
+}
+
+/* footer shit */
+.footer-main{
+  background-color: aliceblue;
+  padding:20px;  
+  text-align: center;
+}
+.footer-text{
+  margin:0; 
+}
+
+/*Modal shit */
+.overlay{
+  background-color: rgba(0, 0, 0, .7);
+  position: fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0; 
+}
+
+.modal-content{
+  background-color: #D8D9DA;
+  height:600px; 
+  width:800px; 
+  position: absolute;
+  top:50%;
+  left:50%; 
+  transform:translate(-50%, -50%);
+  padding:10px; 
+}
+.modal-title{
+  padding-left: 30px;
+  
+}
+.modal-heading{
+  display: inline-block;
+}
+.close-modal-btn{
+  border: none;
+  background-color: #D8D9DA ;
+  position: relative;
+  top:5px; 
+  float: right;
+  padding-right: 30px;
+
+}
+.modal-body{
+  display: flex;
+  padding:0 30px;
+}
+.modal-img{
+  padding-left:10px; 
+  height: 300px; 
+  width:400px; 
+}
+.modal-description{
+  padding-right:10px;
+}
+.modal-footer{
+  padding:30px; 
+}
+.code-btn{
+  background-color:aliceblue;
+  border: none;
+  padding: 10px; 
+  font-size: 16px;
+  display: block;
+}
+.stack-div{
+  display: inline-block;
+  padding:5px;
+  font-size: 16px;
+
+}
+.stack-p{
+  display: inline-block;
+  padding:5px;
+  padding-left: 0;
+}
+.stack{
+  padding: 10px;
+  color:white;
+  font-size: 16px;
+  margin:5px;
+}
+
+
