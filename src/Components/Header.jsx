@@ -2,6 +2,8 @@ import React, {useState} from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MenuIcon from '@mui/icons-material/Menu';
+import Mail from '@mui/icons-material/MailOutline';
+import DataObjectIcon from '@mui/icons-material/DataObject';
 const Header = React.forwardRef((props, ref)=> {
   const [menu, showMenu]=useState(false)
   const [projectRef, aboutRef, contactRef] = ref
@@ -13,11 +15,17 @@ const Header = React.forwardRef((props, ref)=> {
     function setMenu(){
       !menu ? showMenu(true) : showMenu(false)  
     }
+    function openGitHub(){
+      window.open('https://github.com/Samrath-SinghSaini')
+    }
+    function openLinkedIn(){
+      window.open('https://www.linkedin.com/in/samrath-singh-saini-b50508200/')
+    }
   return (
     <div className="header-main">
-      <button className="header-btn header-icon menu-icon" onClick={()=>{window.location.href='/'}}>SSS</button>
-      <button className="header-btn " onClick={()=>{window.open('https://github.com/Samrath-SinghSaini')}}><GitHubIcon className="social-btn"/></button>
-      <button className="header-btn " onClick={()=>{window.open('https://www.linkedin.com/in/samrath-singh-saini-b50508200/')}}><LinkedInIcon className="social-btn"/></button>
+      <button className="header-btn header-icon menu-icon" onClick={()=>{window.location.href='/'}}><DataObjectIcon/></button>
+      <button className="header-btn " onClick={()=>{}}><GitHubIcon className="social-btn"/></button>
+      <button className="header-btn " onClick={()=>{openLinkedIn}}><LinkedInIcon className="social-btn"/></button>
       <div className="nav-btn">
         <button className="header-btn" onClick={()=>{props.scrollToComponent(projectRef)}}>Projects</button>
         <button className="header-btn" onClick={()=>{props.scrollToComponent(aboutRef)}}>About</button>
@@ -30,9 +38,9 @@ const Header = React.forwardRef((props, ref)=> {
         </button> */}
       </div>
       <div className="nav-dropdown" style={menu ?{display:'block'}:{display:'none'}}>
-          <button className="dropdown-btn">LinkedIn</button>
-          <button className="dropdown-btn">GitHub</button>
-          <button className="dropdown-btn">Contact</button>
+          <button className="dropdown-btn" onClick={openLinkedIn}>LinkedIn <LinkedInIcon style={{fontSize:'larger', marginBottom:'-5px'}}/></button>
+          <button className="dropdown-btn" onClick={openGitHub}>GitHub <GitHubIcon style={{fontSize:'larger', marginBottom:'-5px'}}/></button>
+          <button className="dropdown-btn">Contact <Mail style={{fontSize:'larger', marginBottom:'-5px'}} onClick={()=>{props.scrollToComponent(contactRef)}}/></button>
         </div>
     </div>
   );
