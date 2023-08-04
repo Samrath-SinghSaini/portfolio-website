@@ -10,7 +10,7 @@ function ProjectTile(props){
 
 return <div className="project-content">
 <div className="project-description">
-  <h2 className="project-name">{props.title}</h2>
+  <h2 className="project-name secondary-heading">{props.title}</h2>
   <p>{props.description}</p>
   <button className="project-btn button" onClick={showModal}>Learn More</button>
 </div>

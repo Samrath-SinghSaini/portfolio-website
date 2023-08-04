@@ -14,7 +14,7 @@ function ProjectModal(props) {
         <div className="modal-body">
           <div className="modal-description">
             <p>{props.description}</p>
-            <button className="code-btn">Source Code</button>
+            <button className="code-btn" onClick={()=>{window.open('https://github.com/Samrath-SinghSaini', '_blank')}}>Source Code</button>
           </div>
           <img
               src={props.src}
