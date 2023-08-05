@@ -20,7 +20,7 @@ const Main = React.forwardRef(function Main(props, ref) {
           }}
         >Send me a message
         </button>
-        <button className="main-btn" onClick={()=>window.open("https://drive.google.com/file/d/1dobAFT9yBx3MEvKblNzR7WSxDPC6Veap/view?usp=sharing",'_blank')}>Download Resume</button>
+        <button className="main-btn" onClick={()=>window.open("https://drive.google.com/file/d/1QWoin0n5WiweTqahkEI3QD7dXHJz-iMV/view?usp=sharing",'_blank')}>Download Resume</button>
         </div>
       </div>
       <img src="./images/mainImg.png" className="splash-img"></img>
