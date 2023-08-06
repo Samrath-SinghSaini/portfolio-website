@@ -465,6 +465,15 @@ a{
 
   }
   .line-br{display: block;}
+  .stack-p{
+    padding: 0;
+  }
+  .stack{
+    margin-right: 0;
+  }
+  .stack-div{
+    padding: 0;
+  }
 }
 
 @media screen and (max-width:860px){

@@ -27,7 +27,7 @@ function ProjectModal(props) {
               <p className="stack-p">Made Using:</p>
               {props.stack.map((element) => {
                 return (
-                  <span className="stack" style={{ backgroundColor: "green" }}>
+                  <span className="stack" style={{ backgroundColor: "#526D82" }}>
                     {element}
                   </span>
                 );
