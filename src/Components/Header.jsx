@@ -24,8 +24,8 @@ const Header = React.forwardRef((props, ref)=> {
   return (
     <div className="header-main">
       <button className="header-btn header-icon menu-icon" onClick={()=>{window.location.href='/'}}><DataObjectIcon/></button>
-      <button className="header-btn " onClick={()=>{}}><GitHubIcon className="social-btn"/></button>
-      <button className="header-btn " onClick={()=>{openLinkedIn}}><LinkedInIcon className="social-btn"/></button>
+      <button className="header-btn " onClick={openGitHub}><GitHubIcon className="social-btn"/></button>
+      <button className="header-btn " onClick={openLinkedIn}><LinkedInIcon className="social-btn"/></button>
       <div className="nav-btn">
         <button className="header-btn" onClick={()=>{props.scrollToComponent(projectRef)}}>Projects</button>
         <button className="header-btn" onClick={()=>{props.scrollToComponent(aboutRef)}}>About</button>
@@ -39,7 +39,7 @@ const Header = React.forwardRef((props, ref)=> {
       </div>
       <div className="nav-dropdown" style={menu ?{display:'block'}:{display:'none'}}>
           <button className="dropdown-btn" onClick={openLinkedIn}>LinkedIn <LinkedInIcon style={{fontSize:'larger', marginBottom:'-5px'}}/></button>
-          <button className="dropdown-btn" onClick={openGitHub}>GitHub <br></br><GitHubIcon style={{fontSize:'larger', marginBottom:'-5px'}}/></button>
+          <button className="dropdown-btn" onClick={openGitHub}>GitHub <GitHubIcon style={{fontSize:'larger', marginBottom:'-5px'}}/></button>
           <button className="dropdown-btn">Contact <Mail style={{fontSize:'larger', marginBottom:'-5px'}} onClick={()=>{props.scrollToComponent(contactRef)}}/></button>
         </div>
     </div>
