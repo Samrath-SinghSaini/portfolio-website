@@ -128,7 +128,7 @@ a{
   background-color:aliceblue;
   border: none;
   padding: 10px; 
-  font-size: 16px;
+  font-size: 20px;
   margin: 0 5px;
 }
 .main-btn:hover{
@@ -202,7 +202,7 @@ a{
 }
 .project-description{
   box-sizing: border-box;
-  padding-left:10px; 
+  padding:0 10px 0;
    
 }
 .project-img{
@@ -322,7 +322,7 @@ a{
   max-width:600px; 
 }
 .modal-description{
-  padding-right:10px;
+  padding:0 10px 0;
 }
 
 .code-btn{
@@ -424,6 +424,9 @@ a{
     height: auto;
     padding-left: 0;
   }
+  .project-description{
+
+  }
   .img-modal{
     height:auto;
   }
@@ -452,7 +455,7 @@ a{
 
   }
   .current{
-    padding:5px;
+    padding:10px;
   }
 
   /*Main content */
@@ -489,6 +492,7 @@ a{
   .main-btn{
     margin: 5px auto;
     padding:15px;
+    font-size: 18px;
   }
 
 }
@@ -518,7 +522,7 @@ a{
 
 @media screen and (max-width:1050px){
   .modal-content{
-    width:50%; 
+    width:65%; 
     height:80%;
     overflow-y: auto;
     text-align: center;
@@ -536,6 +540,7 @@ a{
   .modal-title{
     padding:0 10px; 
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 
   }
@@ -555,8 +560,15 @@ a{
 }
 
 
-@media screen and (max-width:425px){
+@media screen and (max-width:450px){
   .skill-container{
     padding:0;
   }
+  .modal-description{
+    padding:0;
+  }
+  .modal-body{
+    padding:0 10px;
+  }
+
 }

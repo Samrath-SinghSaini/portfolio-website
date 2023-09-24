@@ -6,10 +6,11 @@ function ProjectModal(props) {
     <div className="overlay" onClick={props.onBtnClick}>
       <div className="modal-content">
         <div className="modal-title">
-          <h2 className="modal-heading">{props.title}</h2>
-          <button className="close-modal-btn" onClick={props.onBtnClick}>
+        <button className="close-modal-btn" onClick={props.onBtnClick}>
             <CloseIcon fontSize="large" />
           </button>
+          <h2 className="modal-heading">{props.title}</h2>
+          
         </div>
         <div className="modal-body">
           <div className="modal-description">
