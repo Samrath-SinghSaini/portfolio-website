@@ -360,17 +360,23 @@ a{
 
 .image-modal-container{
   width:80%;
-  height:80%; 
-  background-color: #D8D9DA;
-  margin:100px auto; 
+  height:auto; 
+  margin:15px auto; 
   position: relative;
 }
 .img-modal{
   width:100%; 
-  height:90%;
+  height:auto;
   padding:35px 20px 20px 20px;
   box-sizing: border-box;
-
+  max-height: 650px;
+  
+}
+.live-link{
+  text-decoration: none;
+}
+.project-note{
+  text-align: center;
 }
 .imgModalCloseBtn{
   padding-top:0;

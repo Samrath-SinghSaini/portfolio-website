@@ -6,7 +6,7 @@ function ImageModal(props){
     }
     return <div className='overlay' onClick={onBtnClick} >
     <div className='image-modal-container'>
-        <button className='close-modal-btn imgModalCloseBtn'><CloseIcon/></button>
+        
         <img src={props.src} className='img-modal' onClick={onBtnClick}></img>
     </div>
     </div>
