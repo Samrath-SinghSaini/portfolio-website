@@ -435,6 +435,7 @@ a{
   }
   .img-modal{
     height:auto;
+    width: 100%;
   }
   .image-modal-container{
     height:auto; 
@@ -577,4 +578,24 @@ a{
     padding:0 10px;
   }
 
+}
+
+@media screen and (max-width:1130px){
+  .project-content{
+    flex-direction: column;
+    text-align: center;
+    }
+    .project-img{
+      width:100%;
+    }
+}
+
+@media screen and (min-width:1750px){
+  .project-content{
+   justify-content: space-around;
+    }
+    .project-img{
+      width:500px;
+      height: auto;
+    }
 }

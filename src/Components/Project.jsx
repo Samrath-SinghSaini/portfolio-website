@@ -11,7 +11,7 @@ function Project() {
       <ProjectTile title="Keeper App" description={Description[0]} src='./images/keeper.png' stack={['NodeJS', 'Express','React', 'MongoDB']}/>
       <ProjectTile title='Travel and Tourism Management System' description={Description[1]} src='./images/tourismJava.png' stack={['Java', 'Swing']}/>
       <ProjectTile title='Blog Website' description={Description[2]} src='./images/journal.png' stack={['NodeJS', 'Express','EJS']}/>
-      <ProjectTile title='Tetris' description={Description[3]} src='./images/tet.png' stack={['Swift']}/>
+      <ProjectTile title='Tetris' description={Description[3]} src='./images/tet2.png' stack={['Swift']}/>
     </div>
   );
 }
